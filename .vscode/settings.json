@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:training-backend-gemastik}/prisma/dev.db",
+            "name": "training gemastik"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
