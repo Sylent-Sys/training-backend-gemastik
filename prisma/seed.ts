@@ -26,6 +26,7 @@ async function init() {
             tahun_terbit: '2021',
         },
     })
+    console.log('Seed data berhasil di-generate')
     await prisma.$disconnect()
 }
 init()

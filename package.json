@@ -11,7 +11,7 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "release": "tsx src/release.ts",
-    "seed": "tsx prisma/seed.ts"
+    "seed": "prisma migrate reset && tsx prisma/seed.ts"
   },
   "keywords": [],
   "author": "",
