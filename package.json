@@ -10,7 +10,8 @@
     "build": "tsc -b tsconfig.json",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
-    "release": "tsx src/release.ts"
+    "release": "tsx src/release.ts",
+    "seed": "tsx prisma/seed.ts"
   },
   "keywords": [],
   "author": "",
